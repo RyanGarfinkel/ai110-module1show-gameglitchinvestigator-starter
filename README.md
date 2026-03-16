@@ -25,13 +25,17 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+   - The purpose of this game is for the user to guess a number between 1 and 100. After each guess the user is told if the guess is too high or too low. The user has 8 guesses to win.
+- [x] Detail which bugs you found.
+   - The go higher/lower hints were reversed, pressing enter to submit a guess didn't work, the history in the debug panel didn't update immediately and didn't clear when starting a new game.
+- [x] Explain what fixes you applied.
+   - Fixed the too high/low logic, enter pressed submits the guess, and history list resets when the game restarts.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [x] Winning Game Screenshot
+![Winning Game Screenshot](winning_screenshot.png)
 
 ## 🚀 Stretch Features
 
